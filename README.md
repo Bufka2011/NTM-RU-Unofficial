@@ -1,5 +1,13 @@
 # NTM RU Unofficial
+
 Unofficial Russian translation resourcepack for HBM’s NTM 1.7.10 (Space support included).
+
+
+
+## What is the purpose of this resourcepack?
+
+In the last year (or maybe even more) the scope of Russian NTM translation has significantly changed. Our purpose is to save the old, legacy translation, but also add some changes to it that are not being, um, *approved* by *some* NTM auditory. If you hate us - we don't care, screw you, buddy!
+
 ---
 “I am tired of the "hierarchy" that some Russian players built around the contribution process in NTM. You can't just contribute to NTM's Russian translation, because some people (no names here, for privacy reasons) will just talk to other people and someone's contribution will just be reverted. *Connections*, they mean too much„ — Bufka2011
 
