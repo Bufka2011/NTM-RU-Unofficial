@@ -22,6 +22,8 @@ container.machineCrucible=Тигель
 
 tile.machine_crucible.name=Тигель литейной
 
+tile.minmus_smooth.desc=Он кажется... освежающим?
+
 item.gun_aberrator.name=Пистолет "Aberrator"
 item.gun_aberrator_eott.name=Пистолеты "Eyes Of The Tempest"
 item.gun_am180.name=Пистолет-пулемёт .22 LR
