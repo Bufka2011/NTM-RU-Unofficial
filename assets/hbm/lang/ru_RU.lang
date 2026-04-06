@@ -16,11 +16,11 @@ container.machineCrucible=Плавильня
 
 tile.machine_crucible.name=Плавильня
 
-tile.minmus_smooth.desc=Оно пахнет... освещающе?
+tile.minmus_smooth.desc=Он пахнет... освещающе?
 
 item.gun_aberrator.name=Пистолет "Аберратор"
-item.gun_aberrator_eott.name=Пистолеты "Eyes Of The Tempest"
-item.gun_am180.name=Пистолет-пулемёт "am-180"
+item.gun_aberrator_eott.name=Пистолеты "Глаза бури"
+item.gun_am180.name=Пистолет-пулемёт "AM-180"
 item.gun_am180_silenced.name=Пистолет-пулемёт "AM-180" с глушителем
 item.gun_amat.name=Крупнокалиберная снайперская винтовка
 item.gun_amat_penance.name=Крупнокалиберная снайперская винтовка "Покаяние"
