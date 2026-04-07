@@ -109,7 +109,11 @@ item.gun_uzi_akimbo.name=Пистолеты-пулемёты "УЗИ"
 item.gun_uzi_saturnite.name=Сатурнитовый пистолет-пулемёт "УЗИ"
 
 // Vitya: Не уверен насчёт этого перевода
-item.morning_glory.name=Утренняя глория
+//
+// Bufka: Morning Glory переводится буквально
+// как "фиалка", поэтому тут особо ничего не поделаешь
+//
+// item.morning_glory.name=Фиалковый вьюнок
 
 item.blade_titanium.name=Титановая лопасть
 item.blade_tungsten.name=Вольфрамом лопасть
