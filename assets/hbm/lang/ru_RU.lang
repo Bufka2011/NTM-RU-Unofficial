@@ -16,8 +16,6 @@ container.machineCrucible=Плавильня
 
 tile.machine_crucible.name=Плавильня
 
-tile.minmus_smooth.desc=Он пахнет... освещающе?
-
 item.gun_aberrator.name=Пистолет "Аберратор"
 item.gun_aberrator_eott.name=Пистолеты "Глаза бури"
 item.gun_am180.name=Пистолет-пулемёт "AM-180"
@@ -36,12 +34,14 @@ item.gun_charge_thrower.name=Метатель снарядов
 item.gun_chemthrower.name=Химомёт
 item.gun_coilgun.name=Гаусс-пушка
 item.gun_congolake.name=Помповый гранатомёт "Конго лейк"
+
 // DEPRECATED //
 //item.gun_cryocannon.name=Cryo Cannon
 //item.gun_cryolator_ammo.name=Cryo Cell
 // DEPRECATED //
-item.gun_double_barrel.name=Дробовик "Старая классика"
-item.gun_double_barrel_sacred_dragon.name=Дробовик "Священный дракон"
+
+item.gun_double_barrel.name=Двуствольный дробовик "Старая классика"
+item.gun_double_barrel_sacred_dragon.name=Двуствольный дробовик "Священный дракон"
 item.gun_fatman.name=Атомная катапульта M42 "Толстяк"
 item.gun_fireext.name=Огнетушитель
 item.gun_flamer.name=Огнемёт
@@ -65,8 +65,6 @@ item.gun_heavy_revolver_protege.name=Револьвер "Проте́же"
 item.gun_heavy_revolver_scoped.name=Тяжёлый револьвер с прицелом
 item.gun_henry.name=Винтовка рычажного действия
 item.gun_henry_lincolnme=Винтовка Линкольна
-item.gun_kit_1.name=Ружейное масло
-item.gun_kit_2.name=Комплект для ремонта оружия
 item.gun_lag.рname=Комически длинный пистолет
 item.gun_laser_pistol.name=Лазерный пистолет
 item.gun_laser_pistol_morning_glory.name=Лазерный пистолет "Морнин Глори"
@@ -90,13 +88,13 @@ item.gun_n_i_4_n_i.name=Энергетический револьвер "N I 4 N
 item.gun_pepperbox.name=Револьвер "Перечница"
 item.gun_pa_melee.name=Силовая броня - Контроллер ближнего боя
 item.gun_pa_ranged.name=Силовая броня - Контроллер дальнего боя
-item.gun_panzerschreck.name=Ракетнца "Панцершрек"
+item.gun_panzerschreck.name=Ракетница "Панцершрек"
 item.gun_quadro.name=Ракетомёт "Четыре сыра"
 item.gun_spas12.name=Дробовик "SPAS-12"
 item.gun_star_f.name=Спортивный пистолет
 item.gun_star_f_akimbo.name=Спортивные пистолеты
 item.gun_star_f_silenced.name=Спортивный пистолет с глушителем
-item.gun_stg77.name=Штурмовая винтовка "StG 77"
+item.gun_stg77.name=Штурмовая винтовка "StG-77"
 item.gun_stinger.name=Ракетная пусковая установка FIM-92 "Стингер"
 item.gun_tau.name=Тау-пушка
 item.gun_tesla_cannon.name=Тесла-пушка
@@ -107,5 +105,9 @@ item.gun_uzi_saturnite.name=Сатурнитовый пистолет-пулем
 
 // Vitya: Не уверен насчёт этого перевода
 item.morning_glory.name=Утренняя глория
+
+// NTM: Space //
+
+tile.minmus_smooth.desc=Он пахнет... освещающе?
 
 item.wand_time.name=Палочка времени
