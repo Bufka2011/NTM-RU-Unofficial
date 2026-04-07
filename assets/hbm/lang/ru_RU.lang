@@ -4,6 +4,8 @@
 // А с ним в коллабе - Bufka2011!
 // Да здравствует свобода перевода!
 
+// Regular NTM //
+
 cannery.crucible=Плавильня
 cannery.crucible.0=Плавильня используется для того, чтобы плавить руды, слитки, или другие металлические предметы с целью создания сплавов и литья.
 cannery.crucible.1=Она требует внешний источник тепла, который должен быть подключён снизу, например, топку.
@@ -108,6 +110,16 @@ item.morning_glory.name=Утренняя глория
 
 // NTM: Space //
 
+// Mun //
+body.mun=Муна
+
+tile.moon_turf.name=Грунт Муны
+tile.moon_rock.name=Камень Муны
+
+item.chunk_ore.moonstone.name=Обработанный мунный камень
+
+// Minmus //
 tile.minmus_smooth.desc=Он пахнет... освещающе?
 
 item.wand_time.name=Палочка времени
+item.sat_lunar_miner.name=Модуль для добычи мунного грунта
