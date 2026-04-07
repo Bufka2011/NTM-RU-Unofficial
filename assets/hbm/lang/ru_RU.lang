@@ -108,6 +108,11 @@ item.gun_uzi_saturnite.name=Сатурнитовый пистолет-пулем
 // Vitya: Не уверен насчёт этого перевода
 item.morning_glory.name=Утренняя глория
 
+item.blade_titanium.name=Титановая лопасть
+item.blade_tungsten.name=Вольфрамом лопасть
+item.turbine_titanium.name=Титановый ротор
+item.turbine_tungsten.name=Вольфрамовый ротор
+
 // NTM: Space //
 
 // Mun //
@@ -122,4 +127,6 @@ item.chunk_ore.moonstone.name=Обработанный мунный камень
 tile.minmus_smooth.desc=Он пахнет... освещающе?
 
 item.wand_time.name=Палочка времени
+item.blade_syngas.name=Нержавеющая лопасть
+item.turbine_syngas.name=Нержавеющий ротор
 item.sat_lunar_miner.name=Модуль для добычи мунного грунта
