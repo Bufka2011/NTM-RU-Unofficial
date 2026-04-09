@@ -21,6 +21,9 @@ container.machineCrucible=Плавильня
 tile.machine_crucible.name=Плавильня
 tile.machine_deuterium_tower.name=Колонна очистки дейтерия сульфидным процессом Гирдлера
 
+item.item_secret.aberrator.name=Часть "Аберратора"
+item.item_secret.folly.name=Фрагмент "Причуды"
+
 item.gun_aberrator.name=Пистолет "Аберратор"
 item.gun_aberrator_eott.name=Пистолеты "Глаза бури"
 item.gun_am180.name=Пистолет-пулемёт "AM-180"
