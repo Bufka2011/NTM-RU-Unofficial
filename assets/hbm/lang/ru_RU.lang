@@ -114,6 +114,7 @@ item.gun_uzi_saturnite.name=Сатурнитовый пистолет-пулем
 // Пластиллиновое безумие //
 armorMod.type.insert=Бронепластина
 
+item.insert_doxium.name=Астольфий-легированная Доксиевая бронепластина
 item.insert_du.name=Урановая бронепластина
 item.insert_era.name=Взрывоопасная реактивная бронепластина
 item.insert_esapi.name=Бронепластина "ESAPI"
