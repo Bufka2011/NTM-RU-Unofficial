@@ -48,8 +48,8 @@ item.gun_congolake.name=Помповый гранатомёт "Конго лей
 //item.gun_cryolator_ammo.name=Cryo Cell
 // DEPRECATED //
 
-item.gun_double_barrel.name=Двуствольный дробовик "Старая классика"
-item.gun_double_barrel_sacred_dragon.name=Двуствольный дробовик "Священный дракон"
+item.gun_double_barrel.name=Двухствольный дробовик "Старая классика"
+item.gun_double_barrel_sacred_dragon.name=Двухствольный дробовик "Священный дракон"
 item.gun_fatman.name=Атомная катапульта M42 "Толстяк"
 item.gun_fireext.name=Огнетушитель
 item.gun_flamer.name=Огнемёт
@@ -111,6 +111,23 @@ item.gun_uzi_richter.name=Пистолет-пулемёт "Рихтер"
 item.gun_uzi_akimbo.name=Пистолеты-пулемёты "УЗИ"
 item.gun_uzi_saturnite.name=Сатурнитовый пистолет-пулемёт "УЗИ"
 
+// Пластиллиновое безумие //
+armorMod.type.insert=Бронепластина
+
+item.insert_du.name=Урановая бронепластина
+item.insert_era.name=Взрывоопасная реактивная бронепластина
+item.insert_esapi.name=Бронепластина "ESAPI"
+item.insert_ghiorsium.name=Гиорсиевая бронепластина
+item.insert_kevlar.name=Кевларовая бронепластина
+item.insert_polonium.name=Полониевая бронепластина
+item.insert_sapi.name=Бронепластина "SAPI"
+item.insert_steel.name=Тяжёлостальная бронепластина
+item.insert_xsapi.name=Бронепластина "XSAPI"
+item.insert_yharonite.name=Яронитовая бронепластина
+
+item.insert_cmb.name=Бронепластина из стали Альянса
+// Пластиллиновое безумие //
+
 // Vitya: Не уверен насчёт этого перевода
 //
 // Bufka: Morning Glory переводится буквально
@@ -122,8 +139,20 @@ item.blade_titanium.name=Титановая лопасть
 item.blade_tungsten.name=Вольфрамом лопасть
 item.turbine_titanium.name=Титановый ротор
 item.turbine_tungsten.name=Вольфрамовый ротор
+item.sat.desc.foeq=Даёт достижение... Это всё
+item.sat.desc.gerald.single_use=Одноразовый
+item.sat.desc.gerald.orbital_module=Требуется орбитальный модуль
+item.sat.desc.gerald.melter=Расплавитель процессоров, а также проклятье каждого владельца сервера
+item.sat.desc.laser=Позволяет вызвать орбитальный лазер с перезарядкой в 15 секунд
+item.sat.desc.mapper=Отображает прогруженные в данный момент чанки
+item.sat.desc.miner=Доставляет руды с астероидов на станцию посадки груза
+item.sat.desc.radar=Показывает карту активных существ
+item.sat.desc.resonator=Позволяет телепортироваться без перезарядки
+item.sat.desc.scanner=Создаёт карту подземных руд сверху вниз
 
 // NTM: Space //
+// Vitya: Я задумался и осознал, что в оригинальной версии NTM
+// Луна является... Луной, а в NTM: Space Муна и я не знаю как лучше сделать
 
 // Mun //
 body.mun=Муна
@@ -136,7 +165,12 @@ item.chunk_ore.moonstone.name=Обработанный мунный камень
 // Minmus //
 tile.minmus_smooth.desc=Он пахнет... освещающе?
 
-item.wand_time.name=Палочка времени
+item.wand_time.name=Временная палочка
 item.blade_syngas.name=Нержавеющая лопасть
 item.turbine_syngas.name=Нержавеющий ротор
 item.sat_lunar_miner.name=Модуль для добычи мунного грунта
+item.sat.desc.lunar_miner=Добывает мунный грунт и доставляет на станцию посадки груза
+item.sat.desc.dyson_relay=Позволяет приёмнику Дайсона работать ночью
+item.sat.desc.war=Однозарядный рельсотрон, предназначенный для использования на других планетах
+item.sat.desc.launch_by_hand=Возможен ручной запуск с орбитальной станции
+item.sat.desc.deploy_orbit=ПКМ для вывода на орбиту
