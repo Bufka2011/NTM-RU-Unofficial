@@ -140,16 +140,17 @@ item.blade_titanium.name=Титановая лопасть
 item.blade_tungsten.name=Вольфрамом лопасть
 item.turbine_titanium.name=Титановый ротор
 item.turbine_tungsten.name=Вольфрамовый ротор
-item.sat.desc.foeq=Даёт достижение... Это всё
-item.sat.desc.gerald.single_use=Одноразовый
-item.sat.desc.gerald.orbital_module=Требуется орбитальный модуль
-item.sat.desc.gerald.melter=Расплавитель процессоров, а также проклятье каждого владельца сервера
-item.sat.desc.laser=Позволяет вызвать орбитальный лазер с перезарядкой в 15 секунд
-item.sat.desc.mapper=Отображает прогруженные в данный момент чанки
-item.sat.desc.miner=Доставляет руды с астероидов на станцию посадки груза
-item.sat.desc.radar=Показывает карту активных существ
-item.sat.desc.resonator=Позволяет телепортироваться без перезарядки
-item.sat.desc.scanner=Создаёт карту подземных руд сверху вниз
+
+// Vitya: Я тебя выебу Буфка за кривой ID локализации
+satchip.lunar_miner=Добывает мунный грунт и доставляет на станцию посадки груза
+satchip.foeq=Даёт достижение... Это всё
+satchip.gerald.desc=Одноразовый$Требуется орбитальный модуль$Плавитель процессоров, а также проклятье каждого администратора сервера
+satchip.laser=Позволяет вызвать орбитальный лазер с перезарядкой в 15 секунд
+satchip.mapper=Отображает прогруженные в данный момент чанки
+satchip.miner=Доставляет руды с астероидов на станцию посадки груза
+satchip.radar=Показывает карту активных существ
+satchip.resonator=Позволяет телепортироваться без перезарядки
+satchip.scanner=Создаёт карту подземных руд сверху вниз
 
 // NTM: Space //
 // Vitya: Я задумался и осознал, что в оригинальной версии NTM
@@ -169,8 +170,19 @@ tile.minmus_smooth.desc=Он пахнет... освещающе?
 item.wand_time.name=Временная палочка
 item.blade_syngas.name=Нержавеющая лопасть
 item.turbine_syngas.name=Нержавеющий ротор
+
 item.sat_lunar_miner.name=Модуль для добычи мунного грунта
 item.sat.desc.lunar_miner=Добывает мунный грунт и доставляет на станцию посадки груза
+item.sat.desc.foeq=Даёт достижение... Это всё
+item.sat.desc.gerald.single_use=Одноразовый
+item.sat.desc.gerald.orbital_module=Требуется орбитальный модуль
+item.sat.desc.gerald.melter=Расплавитель процессоров, а также проклятье каждого владельца сервера
+item.sat.desc.laser=Позволяет вызвать орбитальный лазер с перезарядкой в 15 секунд
+item.sat.desc.mapper=Отображает прогруженные в данный момент чанки
+item.sat.desc.miner=Доставляет руды с астероидов на станцию посадки груза
+item.sat.desc.radar=Показывает карту активных существ
+item.sat.desc.resonator=Позволяет телепортироваться без перезарядки
+item.sat.desc.scanner=Создаёт карту подземных руд сверху вниз
 item.sat.desc.dyson_relay=Позволяет приёмнику Дайсона работать ночью
 item.sat.desc.war=Однозарядный рельсотрон, предназначенный для использования на других планетах
 item.sat.desc.launch_by_hand=Возможен ручной запуск с орбитальной станции
