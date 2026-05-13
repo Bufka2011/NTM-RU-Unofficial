@@ -43,11 +43,6 @@ item.gun_chemthrower.name=Химомёт
 item.gun_coilgun.name=Гаусс-пушка
 item.gun_congolake.name=Помповый гранатомёт "Конго лейк"
 
-// DEPRECATED //
-//item.gun_cryocannon.name=Cryo Cannon
-//item.gun_cryolator_ammo.name=Cryo Cell
-// DEPRECATED //
-
 item.gun_double_barrel.name=Двухствольный дробовик "Старая классика"
 item.gun_double_barrel_sacred_dragon.name=Двухствольный дробовик "Священный дракон"
 item.gun_fatman.name=Атомная катапульта M42 "Толстяк"
@@ -56,10 +51,8 @@ item.gun_flamer.name=Огнемёт
 item.gun_flamer_daybreaker.name=Огнемёт "Дэйбрейкер"
 item.gun_flamer_topaz.name=Огнемёт "Мистер Топаз"
 item.gun_flaregun.name=Сигнальный пистолет
-
 // Vitya: Это мой фаворит
 item.gun_folly.name=Охереть крутая пушка "Причуда"
-
 item.gun_g3.name=Штурмовая винтовка
 item.gun_g3_a3.name=Штурмовая винтовка "G3A3"
 item.gun_g3_infiltrator.name=Штурмовая винтовка "Инфильтратор"
@@ -153,11 +146,43 @@ satchip.resonator=Позволяет телепортироваться без �
 satchip.scanner=Создаёт карту подземных руд сверху вниз
 
 // NTM: Space //
+
+// Planets //
+body.kerbol=Кербол
+// Vitya: Почему бы и нет?
+body.kerbin=Кербин
 // Vitya: Я задумался и осознал, что в оригинальной версии NTM
 // Луна является... Луной, а в NTM: Space Муна и я не знаю как лучше сделать
-
-// Mun //
 body.mun=Муна
+body.minmus=Минмус
+body.duna=Дюна
+body.moho=Мохо
+body.eve=Ева
+body.laythe=Лейт
+body.ike=Айк
+body.dres=Дрес
+body.tekto=Текто
+body.gilly=Гилли
+body.jool=Джул
+body.vall=Валл
+body.tylo=Тайло
+body.bop=Боп
+body.pol=Пол
+body.sarnus=Сарнус
+body.hale=Хейл
+body.ovok=Овок
+body.eeloo=Иилоу
+body.slate=Слейт
+body.urlum=Урлум
+body.polta=Польта
+body.priax=Приакс
+body.wal=Вал
+body.tal=Тал
+body.neidon=Нейдон
+body.thatmo=Татмо
+body.nissee=Ниссея
+body.plock=Плок
+body.karen=Карен
 
 tile.moon_turf.name=Грунт Муны
 tile.moon_rock.name=Камень Муны
