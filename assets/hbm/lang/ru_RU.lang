@@ -212,3 +212,11 @@ item.sat.desc.dyson_relay=Позволяет приёмнику Дайсона �
 item.sat.desc.war=Однозарядный рельсотрон, предназначенный для использования на других планетах
 item.sat.desc.launch_by_hand=Возможен ручной запуск с орбитальной станции
 item.sat.desc.deploy_orbit=ПКМ для вывода на орбиту
+
+entity.hbm.entity_moon_cow.name=Мунная корова
+entity.hbm.entity_rideable_rocket.name=Космическая ракета
+entity.hbm.entity_rideable_rocket_dummy.name=Космическая ракета
+entity.hbm.entity_war_behemoth.name=Машина войны
+
+// Vitya: В этом грёбанном файле беспорядок
+// В следующий раз постараюсь прибраться
