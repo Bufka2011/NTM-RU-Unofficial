@@ -50,7 +50,7 @@ item.gun_fireext.name=Огнетушитель
 item.gun_flamer.name=Огнемёт
 item.gun_flamer_daybreaker.name=Огнемёт "Дэйбрейкер"
 item.gun_flamer_topaz.name=Огнемёт "Мистер Топаз"
-item.gun_flaregun.name=Сигнальный пистолет
+item.gun_flaregun.name=Сигнальная ракетница
 // Vitya: Это мой фаворит
 item.gun_folly.name=Охереть крутая пушка "Причуда"
 item.gun_g3.name=Штурмовая винтовка
@@ -89,7 +89,7 @@ item.gun_n_i_4_n_i.name=Энергетический револьвер "N I 4 N
 item.gun_pepperbox.name=Револьвер "Перечница"
 item.gun_pa_melee.name=Силовая броня - Контроллер ближнего боя
 item.gun_pa_ranged.name=Силовая броня - Контроллер дальнего боя
-item.gun_panzerschreck.name=Ракетница "Панцершрек"
+item.gun_panzerschreck.name=Ракетомёт "Панцершрек"
 item.gun_quadro.name=Ракетомёт "Четыре сыра"
 item.gun_spas12.name=Дробовик "SPAS-12"
 item.gun_star_f.name=Спортивный пистолет
