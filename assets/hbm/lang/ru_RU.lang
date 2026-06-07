@@ -134,6 +134,10 @@ item.blade_tungsten.name=Вольфрамом лопасть
 item.turbine_titanium.name=Титановый ротор
 item.turbine_tungsten.name=Вольфрамовый ротор
 
+// Vitya: Кек
+item.powder_yellowcake.name=Йеллоукек
+tile.block_yellowcake.name=Блок йеллоукека
+
 // Vitya: Я тебя выебу Буфка за кривой ID локализации
 satchip.lunar_miner=Добывает мунный грунт и доставляет$на станцию посадки груза
 satchip.foeq=Даёт достижение... Это всё
