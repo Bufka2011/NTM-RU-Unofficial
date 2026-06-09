@@ -16,8 +16,10 @@ cannery.crucible.3=Плавильня имеет два буферных хра�
 cannery.crucible.4=Буфер слева предназначен для §aпобочных продуктов§r, все материалы, расплавленные без шаблона, окажутся здесь.
 cannery.crucible.11=Как и с другими литейными блоками, можно использовать лопату для очистки плавильни.
 
+container.bigAssTank=Охереть большая цистернище
 container.machineCrucible=Плавильня
 
+tile.machine_bigasstank.name=Охереть большая цистернище
 tile.machine_crucible.name=Плавильня
 tile.machine_deuterium_tower.name=Колонна очистки дейтерия сульфидным процессом Гирдлера
 
@@ -224,7 +226,3 @@ entity.hbm.entity_war_behemoth.name=Машина войны
 
 // Vitya: В этом грёбанном файле беспорядок
 // В следующий раз постараюсь прибраться
-
-
-tile.machine_bigasstank.name=Охереть большая цистернище
-container.bigAssTank=Охереть большая цистернище
