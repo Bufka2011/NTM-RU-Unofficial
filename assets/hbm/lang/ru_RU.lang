@@ -224,3 +224,7 @@ entity.hbm.entity_war_behemoth.name=Машина войны
 
 // Vitya: В этом грёбанном файле беспорядок
 // В следующий раз постараюсь прибраться
+
+
+tile.machine_bigasstank.name=Охереть большая цистернище
+container.bigAssTank=Охереть большая цистернище
