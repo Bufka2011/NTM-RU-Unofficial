@@ -18,10 +18,16 @@ cannery.crucible.11=Как и с другими литейными блокам�
 
 container.bigAssTank=Охереть большая цистернище
 container.machineCrucible=Плавильня
+container.radio=FM радио
 
 tile.machine_bigasstank.name=Охереть большая цистернище
 tile.machine_crucible.name=Плавильня
 tile.machine_deuterium_tower.name=Колонна очистки дейтерия сульфидным процессом Гирдлера
+
+tile.fluid_duct_paintable_block_exhaust.desc=Нажмите ПКМ с твердым блоком, чтобы установить краску$Краску можно убрать отверткой$Текстуру порта можно отключить обезвреживателем$Краску можно скопировать инструментом копирования
+tile.fluid_duct_paintable.desc=Нажмите ПКМ с твердым блоком, чтобы установить краску$Краску можно убрать отверткой$Текстуру порта можно отключить обезвреживателем$Краску можно скопировать инструментом копирования
+tile.oc_cable_paintable.desc=Нажмите ПКМ с твердым блоком, чтобы установить краску$Краску можно убрать отверткой$Текстуру порта можно отключить обезвреживателем$Краску можно скопировать инструментом копирования
+
 
 item.item_secret.aberrator.name=Оружейная запчасть "Аберратор"
 item.item_secret.folly.name=Фрагмент пушки "Причуда"
@@ -66,7 +72,7 @@ item.gun_heavy_revolver_lilmac.name=Малый Макинтош
 item.gun_heavy_revolver_protege.name=Проте́же
 item.gun_heavy_revolver_scoped.name=Тяжёлый револьвер с прицелом
 item.gun_henry.name=Винтовка рычажного действия
-item.gun_henry_lincolnme=Винтовка Линкольна
+item.gun_henry_lincoln.name=Винтовка Линкольна
 item.gun_lag.рname=Комически длинный пистолет
 item.gun_laser_pistol.name=Лазерный пистолет
 item.gun_laser_pistol_morning_glory.name=Морнин Глори
@@ -110,6 +116,9 @@ item.gun_uzi_saturnite.name=Сатурнитовый Узи
 item.gun_b92.name=§9Звёздный бластер Б92
 // DEPRECATED //
 
+item.ammo_secret.m44_equestrian.name=Патрон .44 магнум (Черепотрошитель)
+item.ammo_standard.tau_uranium.name=Ящик обеднённого урана-238
+
 // Пластиллиновое безумие //
 armorMod.type.insert=Бронепластина
 
@@ -139,6 +148,7 @@ item.blade_titanium.name=Титановая лопасть
 item.blade_tungsten.name=Вольфрамом лопасть
 item.turbine_titanium.name=Титановый ротор
 item.turbine_tungsten.name=Вольфрамовый ротор
+item.defuser.name=Обезвреживатель
 
 item.radx.name=Рад-Х
 item.radx.desc=Повышает сопротивление радиации на 0,2 (37%%) в течение 3 минут
@@ -146,6 +156,9 @@ item.pin.name=Отмычка
 item.pin.desc=Вероятность вскрытия обычного замка составляет ~10%%
 item.glyphid_gland.name= (Железа глифида)
 item.glyphid_gland_empty.name=Пустая железа глифида
+item.broken_item.prefix=%s (Бракованный)
+
+item.pile_rod_detector.desc=§9[Детектор/поглотитель нейтронов]$§eПКМ обезвреживателем, чтобы увеличить/уменьшить лимит нейтронов$§eПКМ отвёрткой без шифта, чтобы проверить поток
 
 item.fluid_tank_empty.name=Пустой универсальный резервуар для жидкости
 item.fluid_tank_full.name=Универсальный резервуар для жидкости: %s
