@@ -24,9 +24,10 @@ tile.machine_bigasstank.name=Охереть большая цистернище
 tile.machine_crucible.name=Плавильня
 tile.machine_deuterium_tower.name=Колонна очистки дейтерия сульфидным процессом Гирдлера
 
-tile.fluid_duct_paintable_block_exhaust.desc=Нажмите ПКМ с твердым блоком, чтобы установить краску$Краску можно убрать отверткой$Текстуру порта можно отключить обезвреживателем$Краску можно скопировать инструментом копирования
-tile.fluid_duct_paintable.desc=Нажмите ПКМ с твердым блоком, чтобы установить краску$Краску можно убрать отверткой$Текстуру порта можно отключить обезвреживателем$Краску можно скопировать инструментом копирования
-tile.oc_cable_paintable.desc=Нажмите ПКМ с твердым блоком, чтобы установить краску$Краску можно убрать отверткой$Текстуру порта можно отключить обезвреживателем$Краску можно скопировать инструментом копирования
+tile.pneumatic_tube_paintable.desc=Нажмите ПКМ с твердым блоком, чтобы установить краску$Краску можно убрать отверткой$Текстуру порта можно отключить обезвреживателем$Краску можно скопировать устройством настройки
+tile.fluid_duct_paintable_block_exhaust.desc=Нажмите ПКМ с твердым блоком, чтобы установить краску$Краску можно убрать отверткой$Текстуру порта можно отключить обезвреживателем$Краску можно скопировать устройством настройки
+tile.fluid_duct_paintable.desc=Нажмите ПКМ с твердым блоком, чтобы установить краску$Краску можно убрать отверткой$Текстуру порта можно отключить обезвреживателем$Краску можно скопировать устройством настройки
+tile.oc_cable_paintable.desc=Нажмите ПКМ с твердым блоком, чтобы установить краску$Краску можно убрать отверткой$Текстуру порта можно отключить обезвреживателем$Краску можно скопировать устройством настройки
 
 
 item.item_secret.aberrator.name=Оружейная запчасть "Аберратор"
@@ -116,14 +117,14 @@ item.gun_uzi_saturnite.name=Сатурнитовый Узи
 item.gun_b92.name=§9Звёздный бластер Б92
 // DEPRECATED //
 
-item.ammo_secret.m44_equestrian.name=Патрон .44 магнум (Черепотрошитель)
+//item.ammo_secret.m44_equestrian.name=Патрон .44 магнум (Черепотрошитель)
 item.ammo_standard.tau_uranium.name=Ящик обеднённого урана-238
 
 // Пластиллиновое безумие //
 armorMod.type.insert=Бронепластина
 
 item.insert_doxium.name=Астольфий-легированная Доксиевая бронепластина
-i.insert_du.name=Урановая бронепластина
+item.insert_du.name=Урановая бронепластина
 item.insert_era.name=Взрывоопасная реактивная бронепластина
 item.insert_esapi.name=Бронепластина "ESAPI"
 item.insert_ghiorsium.name=Гиорсиевая бронепластина
@@ -136,13 +137,6 @@ item.insert_yharonite.name=Яронитовая бронепластина
 
 item.insert_cmb.name=Бронепластина из стали Альянса
 // Пластиллиновое безумие //
-
-// Vitya: Не уверен насчёт этого перевода
-//
-// Bufka: Morning Glory переводится буквально
-// как "фиалка", поэтому тут особо ничего не поделаешь
-//
-// item.morning_glory.name=Фиалковый вьюнок
 
 item.blade_titanium.name=Титановая лопасть
 item.blade_tungsten.name=Вольфрамом лопасть
@@ -165,32 +159,39 @@ item.fluid_tank_full.name=Универсальный резервуар для �
 item.fluid_tank_lead_empty.name=Пустой резервуар для опасных материалов
 item.fluid_tank_lead_full.name=Резервуар с опасными материалами: %s
 
+item.chunk_ore.moonstone.name=Обработанный лунный камень
+
 // Vitya: Кек
 item.powder_yellowcake.name=Йеллоукек
 tile.block_yellowcake.name=Блок йеллоукека
 
 hbmfluid.xylene=Бензол-толуол-ксилол (БТК)
 
-// Vitya: Я тебя выебу Буфка за кривой ID локализации
-satchip.lunar_miner=Добывает мунный грунт и доставляет$на станцию посадки груза
-satchip.foeq=Даёт достижение... Это всё
-satchip.gerald.desc=Одноразовый$Требуется орбитальный модуль$Плавитель процессоров, а также проклятье каждого администратора сервера
-satchip.laser=Позволяет вызвать орбитальный лазер$с перезарядкой в 15 секунд
-satchip.mapper=Отображает прогруженные в данный момент чанки
-satchip.miner=Добывает руды с астероидов и доставляет$на станцию посадки груза
-satchip.radar=Показывает карту активных существ
-satchip.resonator=Позволяет телепортироваться без перезарядки
-satchip.scanner=Создаёт карту подземных руд сверху вниз
+// Vitya: Я тебя [слово на букву в] Буфка за кривой ID локализации
+satchip.lunar_miner=Добывает лунный грунт и доставляет на станцию посадки груза.
+satchip.foeq=Даёт достижение... Это всё.
+satchip.gerald.desc=Одноразовый$Требуется орбитальный модуль.$Плавитель процессоров, а также проклятье каждого администратора сервера.
+satchip.laser=Позволяет вызвать орбитальный лазер с перезарядкой в 15 секунд.
+satchip.mapper=Отображает прогруженные в данный момент чанки.
+satchip.miner=Добывает руды с астероидов и доставляет на станцию посадки груза.
+satchip.radar=Показывает карту активных существ.
+satchip.resonator=Позволяет телепортироваться без перезарядки.
+satchip.scanner=Создаёт карту подземных руд сверху вниз.
+
+entity.hbm.entity_ntm_test_dummy.name=Тестовый манекен
+entity.hbm.entity_ntm_undead_soldier.name=Солдат-Мертвец
+entity.hbm.entity_c_item.name=Предмет на конвейере
 
 // NTM: Space //
+
+// Vitya: Это временная мера
+/*
 
 // Planets //
 body.kerbol=Кербол
 // Vitya: Почему бы и нет?
 body.kerbin=Кербин
-// Vitya: Я задумался и осознал, что в оригинальной версии NTM
-// Луна является... Луной, а в NTM: Space Муна и я не знаю как лучше сделать
-body.mun=Муна
+body.mun=Луна
 body.minmus=Минмус
 body.duna=Дюна
 body.moho=Мохо
@@ -221,39 +222,19 @@ body.nissee=Ниссея
 body.plock=Плок
 body.karen=Карен
 
-tile.moon_turf.name=Грунт Муны
-tile.moon_rock.name=Камень Муны
-
-item.chunk_ore.moonstone.name=Обработанный мунный камень
-
-// Minmus //
-tile.minmus_smooth.desc=Он пахнет... освещающе?
+//tile.moon_turf.name=Грунт Муны
+//tile.moon_rock.name=Камень Муны
 
 item.wand_time.name=Временная палочка
 item.blade_syngas.name=Нержавеющая лопасть
 item.turbine_syngas.name=Нержавеющий ротор
 
-item.sat_lunar_miner.name=Модуль для добычи мунного грунта
-item.sat.desc.lunar_miner=Добывает мунный грунт и доставляет на станцию посадки груза
-item.sat.desc.foeq=Даёт достижение... Это всё
-item.sat.desc.gerald.single_use=Одноразовый
-item.sat.desc.gerald.orbital_module=Требуется орбитальный модуль
-item.sat.desc.gerald.melter=Расплавитель процессоров, а также проклятье каждого владельца сервера
-item.sat.desc.laser=Позволяет вызвать орбитальный лазер с перезарядкой в 15 секунд
-item.sat.desc.mapper=Отображает прогруженные в данный момент чанки
-item.sat.desc.miner=Добывает руды с астероидов и доставляет на станцию посадки груза
-item.sat.desc.radar=Показывает карту активных существ
-item.sat.desc.resonator=Позволяет телепортироваться без перезарядки
-item.sat.desc.scanner=Создаёт карту подземных руд сверху вниз
-item.sat.desc.dyson_relay=Позволяет приёмнику Дайсона работать ночью
-item.sat.desc.war=Однозарядный рельсотрон, предназначенный для использования на других планетах
-item.sat.desc.launch_by_hand=Возможен ручной запуск с орбитальной станции
-item.sat.desc.deploy_orbit=ПКМ для вывода на орбиту
-
-entity.hbm.entity_moon_cow.name=Мунная корова
+entity.hbm.entity_moon_cow.name=Лунная корова
 entity.hbm.entity_rideable_rocket.name=Космическая ракета
 entity.hbm.entity_rideable_rocket_dummy.name=Космическая ракета
 entity.hbm.entity_war_behemoth.name=Машина войны
+
+*/
 
 // Vitya: В этом грёбанном файле беспорядок
 // В следующий раз постараюсь прибраться
