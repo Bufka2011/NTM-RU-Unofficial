@@ -135,7 +135,7 @@ item.insert_steel.name=Тяжёлостальная бронепластина
 item.insert_xsapi.name=Бронепластина "XSAPI"
 item.insert_yharonite.name=Яронитовая бронепластина
 
-item.insert_cmb.name=Бронепластина из стали Альянса
+//item.insert_cmb.name=Бронепластина из стали Альянса
 // Пластиллиновое безумие //
 
 item.blade_titanium.name=Титановая лопасть
@@ -167,7 +167,6 @@ tile.block_yellowcake.name=Блок йеллоукека
 
 hbmfluid.xylene=Бензол-толуол-ксилол (БТК)
 
-// Vitya: Я тебя [слово на букву в] Буфка за кривой ID локализации
 satchip.lunar_miner=Добывает лунный грунт и доставляет на станцию посадки груза.
 satchip.foeq=Даёт достижение... Это всё.
 satchip.gerald.desc=Одноразовый$Требуется орбитальный модуль.$Плавитель процессоров, а также проклятье каждого администратора сервера.
@@ -181,60 +180,6 @@ satchip.scanner=Создаёт карту подземных руд сверху
 entity.hbm.entity_ntm_test_dummy.name=Тестовый манекен
 entity.hbm.entity_ntm_undead_soldier.name=Солдат-Мертвец
 entity.hbm.entity_c_item.name=Предмет на конвейере
-
-// NTM: Space //
-
-// Vitya: Это временная мера
-/*
-
-// Planets //
-body.kerbol=Кербол
-// Vitya: Почему бы и нет?
-body.kerbin=Кербин
-body.mun=Луна
-body.minmus=Минмус
-body.duna=Дюна
-body.moho=Мохо
-body.eve=Ева
-body.laythe=Лейт
-body.ike=Айк
-body.dres=Дрес
-body.tekto=Текто
-body.gilly=Гилли
-body.jool=Джул
-body.vall=Валл
-body.tylo=Тайло
-body.bop=Боп
-body.pol=Пол
-body.sarnus=Сарнус
-body.hale=Хейл
-body.ovok=Овок
-body.eeloo=Иилоу
-body.slate=Слейт
-body.urlum=Урлум
-body.polta=Польта
-body.priax=Приакс
-body.wal=Вал
-body.tal=Тал
-body.neidon=Нейдон
-body.thatmo=Татмо
-body.nissee=Ниссея
-body.plock=Плок
-body.karen=Карен
-
-//tile.moon_turf.name=Грунт Муны
-//tile.moon_rock.name=Камень Муны
-
-item.wand_time.name=Временная палочка
-item.blade_syngas.name=Нержавеющая лопасть
-item.turbine_syngas.name=Нержавеющий ротор
-
-entity.hbm.entity_moon_cow.name=Лунная корова
-entity.hbm.entity_rideable_rocket.name=Космическая ракета
-entity.hbm.entity_rideable_rocket_dummy.name=Космическая ракета
-entity.hbm.entity_war_behemoth.name=Машина войны
-
-*/
 
 // Vitya: В этом грёбанном файле беспорядок
 // В следующий раз постараюсь прибраться

@@ -1,0 +1,171 @@
+// С вами на связи TheVitya2127 и
+// я чертовски ужасный переводчик!
+//
+// А с ним в коллабе - Bufka2011!
+// Да здравствует свобода перевода!
+
+// NTM: Space //
+
+// Planets //
+body.kerbol=Кербол
+// Vitya: Почему бы и нет?
+body.kerbin=Кербин
+body.mun=Луна
+body.minmus=Минмус
+body.duna=Дюна
+body.moho=Мохо
+body.eve=Ева
+body.laythe=Лейт
+body.ike=Айк
+body.dres=Дрес
+body.tekto=Текто
+body.gilly=Гилли
+body.jool=Джул
+body.vall=Валл
+body.tylo=Тайло
+body.bop=Боп
+body.pol=Пол
+body.sarnus=Сарнус
+body.hale=Хейл
+body.ovok=Овок
+body.eeloo=Иилоу
+body.slate=Слейт
+body.urlum=Урлум
+body.polta=Польта
+body.priax=Приакс
+body.wal=Вал
+body.tal=Тал
+body.neidon=Нейдон
+body.thatmo=Татмо
+body.nissee=Ниссея
+body.plock=Плок
+body.karen=Карен
+
+// Moho //
+tile.moho_regolith.name=Реголит Мохо
+tile.moho_stone.name=Камень Мохо
+
+// Eve //
+tile.eve_silt.name=Грунт Евы
+tile.eve_rock.name=Камень Евы
+tile.mercury_block.name=Ртуть
+
+// Moon //
+tile.moon_turf.name=Грунт Муны
+tile.moon_rock.name=Камень Муны
+tile.stone_resource.conglomerate.name=Конгломерат
+
+// Minmus //
+tile.minmus_smooth.name=Гладкий камень Минмуса
+tile.minmus_smooth.desc=Он кажется... освежающим?
+tile.minmus_regolith.name=Реголит Минмуса
+tile.minmus_stone.name=Камень Минмуса
+
+tile.crop_mint.name=Мята
+tile.plant_flower.mint.name=Дикий мянтус
+
+item.billet_menthol.name=Заготовка ментола
+item.chocolate_mint_billet.name=Мятное печенье
+item.ingot_menthol.name=Ментоловые кристаллы
+item.mint_leaves.name=Листья мянтуса
+item.nugget_menthol.name=Кусочек ментола
+item.min_cream.name=Мятное мороженое (Прямиком с Минмуса!)
+
+// Duna //
+tile.duna_sands.name=Песок Дюны
+tile.duna_rock.name=Камень Дюны
+tile.duna_cobble.name=Булыжник Дюны
+tile.ferric_clay.name=Блок железистой глины
+tile.stone_resource.calcium.name=Кальцит
+tile.dry_ice.name=Сухой лёд
+
+// Ike //
+tile.ike_regolith.name=Реголит Айка
+tile.ike_stone.name=Камень Айка
+tile.bromine_block.name=Алкилбромид
+
+// Dres //
+tile.dres_rock.name=Камень Дреса
+
+// Laythe //
+tile.laythe_silt.name=Ил Лейта
+tile.stalactite.flesh.name=Свисающие волокна плоти
+tile.stalagmite.flesh.name=Растущие волокна плоти
+tile.plant_tall_laythe.laythe.name=Высокая морская трава Лейта
+tile.laythe_kelp.name=Ламинария Лейта
+tile.laythe_seagrass.name=Морская трава Лейта
+tile.laythe_glowgrass.name=Светящаяся трава Лейта
+tile.laythe_coral.name=Коралл Лейта
+tile.laythe_coral_block.name=Блок кораллов Лейта
+tile.tumor.name=Мясистая масса
+
+// Tekto
+tile.ore_tekto.name=Тектонический нефтянной карман
+tile.ore_tekto_empty.name=Пустой тектонический нефтянной карман
+tile.crop_paraffin=Воскоцвет
+tile.pet_leaves.name=Пластиковые листья
+tile.pvc_log.name=ПВХ-бревно
+tile.pvc_planks.name=ПВХ-доски
+tile.rubber_farmland.name=Пашня Текто
+tile.rubber_grass.name=Резиновая трава Текто
+tile.rubber_leaves.name=Резиновые листья
+tile.rubber_plant.name=Короткая травзина
+tile.rubber_silt.name=Грунт Текто
+tile.rubber_tall.name=Высокая травзина
+tile.sapling_pvc.name=Саженец пластикового дерева
+tile.sapling_vinyl.name=Саженец винилового дерева
+tile.vinyl_log.name=Прочное виниловое бревно
+tile.vinyl_planks.name=Виниловые доски
+tile.vinyl_sand.name=Виниловый песок
+tile.vinyl_vine.name=Виниловые лозы
+
+tile.machine_stardar.desc=Межпланетный радиотелескоп позволяющий обнаруживать$сигналы с планет и устанавливать безопасные зоны посадки.$Для записи сигналов требуется пустой жёсткий диск.
+
+tile.machine_xenon_thruster.name=Ракетный двигатель XNM-1
+
+tile.machine_htrf4neo.name=Ракетный двигатель HTR-F4
+tile.machine_htrf4neo.desc=Используется для орбитальных перелётов.$Для работы подключите к работающему$термоядерному реактору.$Требуется энергия и охлаждение!
+
+tile.machine_vacuum_circuit.name=Вакуумный паяльный стол
+tile.machine_vacuum_circuit.desc=Требуется полный вакуум для функционирования.
+container.machineVacuumCircuit=ВПС
+
+tile.dyson_launcher.name=Пусковая установка SpinLaunch™
+tile.dyson_launcher.desc=Запускает модули роя на керболовскую орбиту.$Модули выходя из строя со временем, поэтому необходимо$периодически запускать новые для поддержания работы.
+tile.dyson_receiver.name=Приёмник Дайсона
+tile.dyson_receiver.desc=Принимает энергию от роя и выпускаеёт её в виде луча.$Требуется ретранслятор для работы ночью.
+tile.dyson_converter_anatmogenesis.name=Анатмогенезисный терраформер Дайсона
+tile.dyson_converter_he.name=Энергетический конвертор Дайсона
+tile.dyson_converter_tu.name=Нагреватель Дайсона
+
+item.sat_dyson_relay.name=Ретранслятор Роя Дайсона
+item.swarm_member.name=Модуль Роя Дайсона
+
+item.blade_syngas.name=Нержавеющая лопасть
+item.bucket_bromine.name=Ведро алкилбромида
+item.item_expensive.astro.name=Блок астронавигации
+item.turbine_syngas.name=Нержавеющий ротор
+item.wand_time.name=Временная палочка
+
+item.insert_cmb.name=Бронепластина из стали Альянса
+
+item.animan.name=Проблематичное блюдо
+item.animan.desc=Ты столкнёшься лицом к лицу с железной волей божества.
+
+item.lox_tank.name=Резервный кислородный бак PLSS
+item.oxy_plss.name=Портативная система жизнеобеспечения (PLSS)
+
+item.chunk_ore.moonstone.name=Обработанный мунный камень
+
+hbmfluid.bromine=Алкилбромид
+hbmfluid.tcrude=Неочищенная тектоническая нефть
+
+entity.hbm.entity_moon_cow.name=Мунная корова
+entity.hbm.entity_rideable_rocket.name=Космическая ракета
+entity.hbm.entity_rideable_rocket_dummy.name=Космическая ракета
+entity.hbm.entity_war_behemoth.name=Машина войны
+
+achievement.driveFail.desc=Забудьте создать копию диска орбитальной станции перед запуском
+achievement.driveFail=Ээээ... Ты же ничего не забыл?
+
+satchip.lunar_miner=Добывает мунный грунт и доставляет на станцию посадки груза.
