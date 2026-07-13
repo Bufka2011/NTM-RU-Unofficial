@@ -16,19 +16,23 @@ cannery.crucible.3=Плавильня имеет два буферных хра�
 cannery.crucible.4=Буфер слева предназначен для §aпобочных продуктов§r, все материалы, расплавленные без шаблона, окажутся здесь.
 cannery.crucible.11=Как и с другими литейными блоками, можно использовать лопату для очистки плавильни.
 
-container.bigAssTank=Охереть большая цистернище
+tile.machine_bigasstank.name=Охереть большое цистернище
+tile.machine_crucible.name=Плавильня
+tile.machine_deuterium_tower.name=Башня экстракции дейтерия сульфидным процессом Гирдлера
+tile.heater_oilburner.name=Жидкостный нагреватель
+tile.heater_oilburner.desc=Производит тепло, сжигая жидкое горючее топливо.$Можно настроить с помощью отвёртки.
+tile.machine_precass.name=Высокоточная сборочная машина
+tile.machine_teleporter.name=Телепортер
+
+container.bigAssTank=Охереть большое цистернище
 container.machineCrucible=Плавильня
 container.radio=FM радио
+container.machinePrecAss=Прецизионный сборщик
 
-tile.machine_bigasstank.name=Охереть большая цистернище
-tile.machine_crucible.name=Плавильня
-tile.machine_deuterium_tower.name=Колонна очистки дейтерия сульфидным процессом Гирдлера
-
-tile.pneumatic_tube_paintable.desc=Нажмите ПКМ с твердым блоком, чтобы установить краску$Краску можно убрать отверткой$Текстуру порта можно отключить обезвреживателем$Краску можно скопировать устройством настройки
-tile.fluid_duct_paintable_block_exhaust.desc=Нажмите ПКМ с твердым блоком, чтобы установить краску$Краску можно убрать отверткой$Текстуру порта можно отключить обезвреживателем$Краску можно скопировать устройством настройки
-tile.fluid_duct_paintable.desc=Нажмите ПКМ с твердым блоком, чтобы установить краску$Краску можно убрать отверткой$Текстуру порта можно отключить обезвреживателем$Краску можно скопировать устройством настройки
-tile.oc_cable_paintable.desc=Нажмите ПКМ с твердым блоком, чтобы установить краску$Краску можно убрать отверткой$Текстуру порта можно отключить обезвреживателем$Краску можно скопировать устройством настройки
-
+tile.pneumatic_tube_paintable.desc=Нажмите ПКМ с твердым блоком, чтобы установить краску$Краску можно убрать отвёрткой$Текстуру порта можно отключить обезвреживателем$Краску можно скопировать устройством настройки
+tile.fluid_duct_paintable_block_exhaust.desc=Нажмите ПКМ с твердым блоком, чтобы установить краску$Краску можно убрать отвёрткой$Текстуру порта можно отключить обезвреживателем$Краску можно скопировать устройством настройки
+tile.fluid_duct_paintable.desc=Нажмите ПКМ с твердым блоком, чтобы установить краску$Краску можно убрать отвёрткой$Текстуру порта можно отключить обезвреживателем$Краску можно скопировать устройством настройки
+tile.oc_cable_paintable.desc=Нажмите ПКМ с твердым блоком, чтобы установить краску$Краску можно убрать отвёрткой$Текстуру порта можно отключить обезвреживателем$Краску можно скопировать устройством настройки
 
 item.item_secret.aberrator.name=Оружейная запчасть "Аберратор"
 item.item_secret.folly.name=Фрагмент пушки "Причуда"
@@ -117,8 +121,96 @@ item.gun_uzi_saturnite.name=Сатурнитовый Узи
 item.gun_b92.name=§9Звёздный бластер Б92
 // DEPRECATED //
 
-//item.ammo_secret.m44_equestrian.name=Патрон .44 магнум (Черепотрошитель)
+item.ammo_secret.bmg50_equestrian.name=Патрон .50 BMG (Разрушитель)
+item.ammo_secret.folly_nuke.name=Серебряная пуля (Ядерная)
+item.ammo_secret.folly_sm.name=Серебряная пуля
+item.ammo_secret.g12_equestrian.name=Патрон 12 калибра (Железнодорожный гвоздь)
+item.ammo_secret.m44_equestrian.name=Патрон .44 Магнум (Черепотрошитель)
+item.ammo_secret.p35_800.name=Патрон .35-800 V9
+item.ammo_secret.p35_800_bl.name=Патрон .35-800 V9 (Чёрная Молния)
+item.ammo_secret.bmg50_black.name=Патрон .50 БМГ (Простреливающий)
+
+item.ammo_standard.g40_demo.name=40-мм граната (Разрущающая)
+item.ammo_standard.g40_he.name=40-мм граната (Фугасная)
+item.ammo_standard.g40_heat.name=40-мм граната (Кумулятивная)
+item.ammo_standard.g40_inc.name=40-мм граната (Зажигательная)
+item.ammo_standard.g40_phosphorus.name=40-мм граната (Белый фосфор)
+
+item.ammo_standard.rocket_demo.name=Ракета (Разрущающая)
+item.ammo_standard.rocket_he.name=Ракета (Фугасная)
+item.ammo_standard.rocket_heat.name=Ракета (Кумулятивная)
+item.ammo_standard.rocket_inc.name=Ракета (Зажигательная)
+item.ammo_standard.rocket_phosphorus.name=Ракета (Белый фосфор)
+
+item.ammo_standard.g10.name=Патрон 10 калибра (Картечь)
+item.ammo_standard.g10_du.name=Патрон 10 калибра (Обеднённый уран)
+item.ammo_standard.g10_shrapnel.name=Патрон 10 калибра (Шрапнель)
+item.ammo_standard.g10_slug.name=Патрон 10 калибра (Пуля)
+item.ammo_standard.g10_explosive.name=Патрон 10 калибра (Разрывной)
+
+item.ammo_standard.g12.name=Патрон 12 калибра (Картечь)
+item.ammo_standard.g12_anthrax.name=Патрон 12 калибра (Сибирская язва)
+item.ammo_standard.g12_bp.name=Патрон 12 калибра (Картечь на чёрном порохе)
+item.ammo_standard.g12_bp_magnum.name=Патрон 12 калибра (Тяжёлая картечь на чёрном порохе)
+item.ammo_standard.g12_bp_slug.name=Патрон 12 калибра (Пуля на чёрном порохе)
+item.ammo_standard.g12_explosive.name=Патрон 12 калибра (Разрывной)
+item.ammo_standard.g12_flechette.name=Патрон 12 калибра (Флешетты)
+item.ammo_standard.g12_magnum.name=Патрон 12 калибра (Тяжёлая картечь)
+item.ammo_standard.g12_phosphorus.name=Патрон 12 калибра (Зажигательный)
+item.ammo_standard.g12_slug.name=Патрон 12 калибра (Пуля)
+
+item.ammo_standard.p9_ap.name=Патрон 9-мм (Бронебойный)
+item.ammo_standard.p9_fmj.name=Патрон 9-мм (Оболочечный)
+item.ammo_standard.p9_jhp.name=Патрон 9-мм (Полуоболочечный экспансивный)
+item.ammo_standard.p9_sp.name=Патрон 9-мм (Экспансивный)
+
+item.ammo_standard.r556_ap.name=Патрон 5.56-мм (Бронебойный)
+item.ammo_standard.r556_fmj.name=Патрон 5.56-мм (Оболочечный)
+item.ammo_standard.r556_jhp.name=Патрон 5.56-мм (Полуоболочечный экспансивный)
+item.ammo_standard.r556_sp.name=Патрон 5.56-мм (Экспансивный)
+
+item.ammo_standard.r762_ap.name=Патрон 7.62-мм (Бронебойный)
+item.ammo_standard.r762_du.name=Патрон 7.62-мм (Обеднённый уран)
+item.ammo_standard.r762_fmj.name=Патрон 7.62-мм (Оболочечный)
+item.ammo_standard.r762_he.name=Патрон 7.62-мм (Разрывной)
+item.ammo_standard.r762_jhp.name=Патрон 7.62-мм (Полуоболочечный экспансивный)
+item.ammo_standard.r762_sp.name=Патрон 7.62-мм (Экспансивный)
+
+item.ammo_standard.m357_ap.name=Патрон .357 Магнум (Бронебойный)
+item.ammo_standard.m357_bp.name=Патрон .357 Магнум (Чёрный порох)
+item.ammo_standard.m357_express.name=Патрон .357 Магнум (Высокоскоростной оболочечный)
+item.ammo_standard.m357_fmj.name=Патрон .357 Магнум (Оболочечный)
+item.ammo_standard.m357_jhp.name=Патрон .357 Магнум (Полуоболочечный экспансивный)
+item.ammo_standard.m357_sp.name=Патрон .357 Магнум (Экспансивный)
+
+item.ammo_standard.m44_ap.name=Патрон .44 Магнум (Бронебойный)
+item.ammo_standard.m44_bp.name=Патрон .44 Магнум (Чёрный порох)
+item.ammo_standard.m44_express.name=Патрон .44 Магнум (Высокоскоростной оболочечный)
+item.ammo_standard.m44_fmj.name=Патрон .44 Магнум (Оболочечный)
+item.ammo_standard.m44_jhp.name=Патрон .44 Магнум (Полуоболочечный экспансивный)
+item.ammo_standard.m44_sp.name=Патрон .44 Магнум (Экспансивный)
+
+item.ammo_standard.bmg50_ap.name=Патрон .50 БМГ (Бронебойный)
+item.ammo_standard.bmg50_he.name=Патрон .50 БМГ (Разрывной)
+item.ammo_standard.bmg50_du.name=Патрон .50 БМГ (Обеднённый уран)
+item.ammo_standard.bmg50_fmj.name=Патрон .50 БМГ (Оболочечный)
+item.ammo_standard.bmg50_sm.name=Патрон .50 БМГ (Звёздный металл)
+item.ammo_standard.bmg50_jhp.name=Патрон .50 БМГ (Полуоболочечный экспансивный)
+item.ammo_standard.bmg50_sp.name=Патрон .50 БМГ (Экспансивный)
+
+item.ammo_standard.nuke_balefire.name=Ядерный минизаряд (Жар-яйцо)
+item.ammo_standard.nuke_demo.name=Ядерный минизаряд (Разрущающая)
+item.ammo_standard.nuke_high.name=Ядерный минизаряд (Высокомощный)
+item.ammo_standard.nuke_hive.name=Ракетный минизаряд (Ракетный рой)
+item.ammo_standard.nuke_standard.name=Ядерный минизаряд (Стандартный)
+item.ammo_standard.nuke_tots.name=Ядерный минизаряд (Карапузы)
+
 item.ammo_standard.tau_uranium.name=Ящик обеднённого урана-238
+
+item.ammo_standard.coil_ferrouranium.name=Гаусс-шарик (Ферроурановый)
+item.ammo_standard.coil_tungsten.name=Гаусс-шарик (Вольфрамовый)
+
+item.ammo_standard.flame_balefire.name=Топливо огнемёта (Жар-топливо)
 
 // Пластиллиновое безумие //
 armorMod.type.insert=Бронепластина
@@ -154,10 +246,22 @@ item.broken_item.prefix=%s (Бракованный)
 
 item.pile_rod_detector.desc=§9[Детектор/поглотитель нейтронов]$§eПКМ обезвреживателем, чтобы увеличить/уменьшить лимит нейтронов$§eПКМ отвёрткой без шифта, чтобы проверить поток
 
-item.fluid_tank_empty.name=Пустой универсальный резервуар для жидкости
-item.fluid_tank_full.name=Универсальный резервуар для жидкости: %s
+item.gas_empty.name=Пустой газовый баллон
+item.gas_full.name=Газовый баллон:
+item.canister_empty.name=Пустая канистра
+item.canister_full.name=Канистра:
+item.canister_napalm.name=Канистра: Напалм
+
+item.fluid_tank_empty.name=Пустой универсальный жидкостный резервуар
+item.fluid_tank_full.name=Универсальный жидкостный резервуар: %s
 item.fluid_tank_lead_empty.name=Пустой резервуар для опасных материалов
-item.fluid_tank_lead_full.name=Резервуар с опасными материалами: %s
+item.fluid_tank_lead_full.name=Резервуар для опасных материалов: %s
+item.fluid_barrel_empty.name=Пустая жидкостная бочка
+item.fluid_barrel_full.name=Жидкостная бочка: %s
+item.fluid_pack_empty.name=Большой жидкостный контейнер
+item.fluid_pack_full.name=%s (Упаковано)
+
+item.battery_sc.desc=Радиовольтаическое устройство не подходят для$аккумуляторных разъемов! Выходная мощность может$быть нестабильной и может возникнуть опасное$искрение!
 
 item.chunk_ore.moonstone.name=Обработанный лунный камень
 
@@ -166,6 +270,18 @@ item.powder_yellowcake.name=Йеллоукек
 tile.block_yellowcake.name=Блок йеллоукека
 
 hbmfluid.xylene=Бензол-толуол-ксилол (БТК)
+
+upgrade.acid=Требуется кислота %s
+upgrade.burn=Сжигает %smB/t газа в %sHE
+upgrade.consumption=Потребление %s
+upgrade.coolantConsumption=Потребление охладителя %s
+upgrade.delay=Время %s
+upgrade.efficiency=Эффективность %s
+upgrade.fortune=Удача %s
+upgrade.overheatChance=Шанс перегрева %s
+upgrade.productivity=Продуктивность %s
+upgrade.range=Радиус %s
+upgrade.speed=Скорость процесса %s
 
 satchip.lunar_miner=Добывает лунный грунт и доставляет на станцию посадки груза.
 satchip.foeq=Даёт достижение... Это всё.
