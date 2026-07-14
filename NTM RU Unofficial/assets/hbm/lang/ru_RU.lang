@@ -24,9 +24,15 @@ tile.heater_oilburner.desc=Производит тепло, сжигая жид�
 tile.machine_precass.name=Высокоточная сборочная машина
 tile.machine_teleporter.name=Телепортер
 
+tile.machine_autosaw.name=Автоматическая пила
+tile.machine_autosaw.desc=Срубает и пересаживает ближайшие деревья.$Принимает:$- Древесное масло$- Этанол$- Рыбное масло$- Тяжёлую нефть$- Креозот из угольной смолы
+tile.machine_autosaw.suspended=Приостановлена
+tile.machine_thresher.name=Автоматическая молотилка
+tile.machine_thresher.desc=Собирает урожай и пересаживает культуры.$Принимает:$- Древесное масло$- Этанол$- Рыбное масло$- Тяжёлую нефть$- Креозот из угольной смолы
+tile.machine_thresher.suspended=Приостановлена
+
 container.bigAssTank=Охереть большое цистернище
 container.machineCrucible=Плавильня
-container.radio=FM радио
 container.machinePrecAss=Прецизионный сборщик
 
 tile.pneumatic_tube_paintable.desc=Нажмите ПКМ с твердым блоком, чтобы установить краску$Краску можно убрать отвёрткой$Текстуру порта можно отключить обезвреживателем$Краску можно скопировать устройством настройки
