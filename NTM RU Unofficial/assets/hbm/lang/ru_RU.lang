@@ -17,6 +17,8 @@ cannery.crucible.4=Буфер слева предназначен для §aпо
 cannery.crucible.11=Как и с другими литейными блоками, можно использовать лопату для очистки плавильни.
 
 tile.machine_bigasstank.name=Охереть большое цистернище
+tile.machine_orbus.name=Тяжёлый магнитный контейнер
+tile.barrel_antimatter.name=Магнитный контейнер
 tile.machine_crucible.name=Плавильня
 tile.machine_deuterium_tower.name=Башня экстракции дейтерия сульфидным процессом Гирдлера
 tile.heater_oilburner.name=Жидкостный нагреватель
@@ -71,6 +73,7 @@ tile.geysir_chlorine.name=Хлорный гейзер
 tile.geysir_nether.name=Адский гейзер
 
 container.bigAssTank=Охереть большое цистернище
+container.orbus=Тяжёлый магнитный контейнер
 container.machineCrucible=Плавильня
 container.machinePrecAss=Высокоточная сборочная машина
 
