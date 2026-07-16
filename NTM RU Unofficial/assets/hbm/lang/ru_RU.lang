@@ -24,6 +24,7 @@ tile.machine_deuterium_tower.name=Башня экстракции дейтери
 tile.heater_oilburner.name=Жидкостный нагреватель
 tile.heater_oilburner.desc=Производит тепло, сжигая жидкое горючее топливо.$Можно настроить с помощью отвёртки.
 tile.machine_precass.name=Высокоточная сборочная машина
+tile.machine_press.name=Твёрдотопливный пресс
 tile.machine_teleporter.name=Телепортер
 
 tile.machine_autosaw.name=Автоматическая пила
@@ -76,6 +77,7 @@ container.bigAssTank=Охереть большое цистернище
 container.orbus=Тяжёлый магнитный контейнер
 container.machineCrucible=Плавильня
 container.machinePrecAss=Высокоточная сборочная машина
+container.press=Твёрдотопливный пресс
 
 container.rbmkGauge=Редстоун-по-Радио манометр
 container.rbmkGraph=Редстоун-по-Радио график
@@ -301,6 +303,14 @@ item.defuser.name=Обезвреживатель
 
 item.ingot_desh.name=Деш-слиток
 
+item.ingot_c4.name=Брусок С-4
+item.stick_c4.name=Шашка С-4
+tile.block_c4.name=Блок С-4
+tile.c4.name=С-4
+
+item.ingot_semtex.name=Брусок семтекса
+item.ingot_semtex.desc=Пластиковая взрывчатка Семтекс H$Эффективное взрывчатое вещество для многих применений.$Съедобно
+
 item.radx.name=Рад-Х
 item.radx.desc=Повышает сопротивление радиации на 0,2 (37%%) в течение 3 минут
 item.pin.name=Отмычка
@@ -327,7 +337,28 @@ item.fluid_pack_empty.name=Большой жидкостный контейне�
 item.fluid_pack_full.name=%s (Упаковано)
 item.scraps.name=%s (Литейный шлак)
 
-item.battery_sc.desc=Радиовольтаическое устройство не подходят для$аккумуляторных разъемов! Выходная мощность может$быть нестабильной и может возникнуть опасное$искрение!
+item.detonator_de.name=Взрывчатка смертника
+item.detonator_deadman.name=Детонатор смертника
+
+item.igniter.name=Зажигатель
+item.igniter.desc=(Щёлкните ПКМ по Прототипу)$Это зелёная металлическая ручка с $ярко-красной кнопкой и маленькой крышкой.$Внизу выгравированы инициалы N.E.$Кем бы ни был N.E., у него был отличный вкус в оттенках зелёного.
+
+item.particle_amat.name=Капсула с Антиматерией
+item.particle_aschrab.name=Капсула с Антишрабидием
+item.particle_copper.name=Капсула с ионами меди
+item.particle_dark.name=Капсула с Тёмной материей
+item.particle_digamma.name=§cКапсула с Дигамма частицей§r
+item.particle_empty.name=Пустая капсула
+item.particle_higgs.name=Капсула с Бозоном Хиггса
+item.particle_hydrogen.name=Капсула с ионами водорода
+item.particle_lead.name=Капсула с ионами свинца
+item.particle_lutece.name=Капсула с Квазичастицей Лютеция
+item.particle_muon.name=Капсула с Мюоном
+item.particle_sparkticle.name=Капсула со Спарктиклом
+item.particle_strange.name=Капсула со Странным кварком
+item.particle_tachyon.name=Капсула с Тахионом
+
+item.battery_sc.desc=Радиовольтаическое устройство не подходит для$аккумуляторных разъемов! Выходная мощность может$быть нестабильной и может возникнуть опасное$искрение!
 
 item.rtty_pager.name=Редстоун-по-Радио пейджер
 
@@ -480,6 +511,7 @@ hbmmat.zirconium=Цирконий
 entity.hbm.entity_ntm_test_dummy.name=Тестовый манекен
 entity.hbm.entity_ntm_undead_soldier.name=Солдат-Мертвец
 entity.hbm.entity_c_item.name=Предмет на конвейере
+entity.hbm.entity_c_package.name=Ящик на конвейере
 
 // Vitya: В этом грёбанном файле беспорядок
 // В следующий раз постараюсь прибраться
