@@ -23,9 +23,43 @@ tile.machine_crucible.name=Плавильня
 tile.machine_deuterium_tower.name=Башня экстракции дейтерия сульфидным процессом Гирдлера
 tile.heater_oilburner.name=Жидкостный нагреватель
 tile.heater_oilburner.desc=Производит тепло, сжигая жидкое горючее топливо.$Можно настроить с помощью отвёртки.
-tile.machine_precass.name=Высокоточная сборочная машина
-tile.machine_press.name=Твёрдотопливный пресс
 tile.machine_teleporter.name=Телепортер
+
+tile.fusion_coupler.name=Соединитель (Термоядерный реактор)
+tile.fusion_coupler.desc=Использует энергию плазмы для запуска клистрона,$что зажжёт плазму в следующем реакторе.
+tile.fusion_boiler.name=Плазменный бойлер (Термоядерный реактор)
+tile.fusion_boiler.desc=Использует энергию плазмы для повышения температуры воды$до состояния перегретого пара.
+tile.fusion_breeder.name=Камера-размножитель (Термоядерный реактор)
+tile.fusion_breeder.desc=Отводит поток нейтронов для обработки материалов.$Полезно для производства тритиевого топлива.
+tile.fusion_collector.name=Улавливающая камера (Термоядерный реактор)
+tile.fusion_collector.desc=Собирает дополнительное количество продуктов$при подключении к термоядерной камере.
+tile.fusion_klystron.name=Клистрон (Термоядерный реактор)
+tile.fusion_klystron.desc=Зажигает термоядерный реактор.$Требует охлаждения сжатым воздухом.
+tile.fusion_klystron_creative.name=Творческий клистрон (Термоядерный реактор)
+tile.fusion_klystron_creative.desc=Обеспечивает бесконечную энергию клистрона.
+tile.fusion_mhdt.name=МГД-турбина (Термоядерный реактор)
+tile.fusion_mhdt.desc=Извлекает электроэнергию из плазмы напрямую,$что позволяет достичь меньших потерь.$Требуется охлаждение!
+tile.fusion_plasma_forge.name=Плазменная кузница (Термоядерный реактор)
+tile.fusion_torus.name=Термоядерная камера (Термоядерный реактор)
+tile.fusion_torus.desc=Ядро всей системы.$Во время работы удерживает раскалённую плазму и нейтронный поток.$Необходим клистрон для поджига плазмы и охлаждение!
+
+tile.struct_icf_core.name=Ядро инерциального термоядерного реактора (ICF)
+tile.icf.name=Реактор инерциального термоядерного синтеза (ICF)
+tile.icf_block.name=Лазер (ICF)
+tile.icf_component.name=Стабилизатор (ICF)
+tile.icf_component.structure.name=Обшивка (ICF)
+tile.icf_component.structure_bolted.name=Заклёпанная обшивка (ICF)
+tile.icf_component.vessel.name=Стенка активной зоны (ICF)
+tile.icf_component.vessel_welded.name=Сваренная стенка активной зоны (ICF)
+tile.icf_controller.name=Контроллер лазера (ICF)
+tile.icf_laser_component.capacitor.name=Лазерный конденсатор (ICF)
+tile.icf_laser_component.casing.name=Обшивка лазера (ICF)
+tile.icf_laser_component.cell.name=Лазерная ячейка (ICF)
+tile.icf_laser_component.emitter.name=Лазерный излучатель (ICF)
+tile.icf_laser_component.port.name=Порт лазера (ICF)
+tile.icf_laser_component.turbo.name=Турбоусилитель лазера (ICF)
+tile.machine_icf_press.name=Топливный пресс (ICF)
+tile.machine_icf_press.desc=Наполняет топливные пеллеты ICF$Левый топливный слот принимается сверху/снизу, правый - по бокам$Мюоны и пеллеты могут подаваться с любой стороны
 
 tile.machine_autosaw.name=Автоматическая пила
 tile.machine_autosaw.desc=Срубает и пересаживает ближайшие деревья.$Принимает:$- Древесное масло$- Этанол$- Рыбное масло$- Тяжёлую нефть$- Креозот из угольной смолы
@@ -76,8 +110,9 @@ tile.geysir_nether.name=Адский гейзер
 container.bigAssTank=Охереть большое цистернище
 container.orbus=Тяжёлый магнитный контейнер
 container.machineCrucible=Плавильня
-container.machinePrecAss=Высокоточная сборочная машина
-container.press=Твёрдотопливный пресс
+
+container.machineICF=ICF
+container.machineICFPress=Топливный пресс ICF
 
 container.rbmkGauge=Редстоун-по-Радио манометр
 container.rbmkGraph=Редстоун-по-Радио график
@@ -113,7 +148,6 @@ item.gun_autoshotgun.name=Автоматический дробовик
 item.gun_autoshotgun_heretic.name=Еретик
 item.gun_autoshotgun_sexy.name=Секси
 item.gun_autoshotgun_shredder.name=Шреддер
-item.gun_drill.name=Силовой бур
 item.gun_bolter.name=Болтер
 item.gun_carbine.name=Карабин
 item.gun_charge_thrower.name=Метатель снарядов
@@ -122,12 +156,13 @@ item.gun_coilgun.name=Гаусс-пушка
 item.gun_congolake.name=Гранатомёт "Конго лейк"
 item.gun_double_barrel.name=Старая классика
 item.gun_double_barrel_sacred_dragon.name=Священный дракон
+item.gun_drill.name=Силовой бур
 item.gun_fatman.name=Атомная катапульта "Толстяк"
 item.gun_fireext.name=Огнетушитель
+item.gun_flaegun.name=Сигнальная ракетница
 item.gun_flamer.name=Огнемёт
 item.gun_flamer_daybreaker.name=Дэйбрейкер
 item.gun_flamer_topaz.name=Мистер Топаз
-item.gun_flaegun.name=Сигнальная ракетница
 // Vitya: Это мой фаворит
 item.gun_folly.name=Охереть крутая пушка "Причуда"
 item.gun_g3.name=Штурмовая винтовка
@@ -139,7 +174,7 @@ item.gun_greasegun_m3.name=Пистолет-пулемёт M3
 item.gun_hangman.name=Палач
 item.gun_heavy_revolver.name=Тяжёлый револьвер
 item.gun_heavy_revolver_lilmac.name=Малый Макинтош
-item.gun_heavy_revolver_protege.name=Проте́же
+item.gun_heavy_revolver_protege.name=Протéже
 item.gun_heavy_revolver_scoped.name=Тяжёлый револьвер с прицелом
 item.gun_henry.name=Винтовка рычажного действия
 item.gun_henry_lincoln.name=Винтовка Линкольна
@@ -164,10 +199,10 @@ item.gun_minigun_lacunae.name=Лакунай
 item.gun_missile_launcher.name=Ракетомёт
 item.gun_mk108.name=Автоматический гранатомёт
 item.gun_n_i_4_n_i.name=Стрелковый револьвер "N I 4 N I"
-item.gun_pepperbox.name=Перечница
 item.gun_pa_melee.name=Силовая броня - Контроллер ближнего боя
 item.gun_pa_ranged.name=Силовая броня - Контроллер дальнего боя
 item.gun_panzerschreck.name=Панцершрек
+item.gun_pepperbox.name=Перечница
 item.gun_quadro.name=Четыре сыра
 item.gun_spas12.name=Дробовик SPAS-12
 item.gun_star_f.name=Целевой пистолет
@@ -178,41 +213,37 @@ item.gun_stinger.name=FIM-92 Стингер
 item.gun_tau.name=Тау-пушка
 item.gun_tesla_cannon.name=Тесла-пушка
 item.gun_uzi.name=Узи
-item.gun_uzi_richter.name=Рихтер
 item.gun_uzi_akimbo.name=Двойные Узи
+item.gun_uzi_richter.name=Рихтер
 item.gun_uzi_saturnite.name=Сатурнитовый Узи
 
 // DEPRECATED //
 item.gun_b92.name=§9Звёздный бластер Б92
 // DEPRECATED //
 
-item.ammo_secret.bmg50_equestrian.name=Патрон .50 BMG (Разрушитель)
+item.ammo_secret.bmg50_black.name=Патрон .50 БМГ (Простреливающий)
+item.ammo_secret.bmg50_equestrian.name=Патрон .50 БМГ (Разрушитель)
 item.ammo_secret.folly_nuke.name=Серебряная пуля (Ядерная)
 item.ammo_secret.folly_sm.name=Серебряная пуля
 item.ammo_secret.g12_equestrian.name=Патрон 12 калибра (Железнодорожный гвоздь)
 item.ammo_secret.m44_equestrian.name=Патрон .44 Магнум (Черепотрошитель)
 item.ammo_secret.p35_800.name=Патрон .35-800 V9
 item.ammo_secret.p35_800_bl.name=Патрон .35-800 V9 (Чёрная Молния)
-item.ammo_secret.bmg50_black.name=Патрон .50 БМГ (Простреливающий)
-
-item.ammo_standard.g40_demo.name=40-мм граната (Разрущающая)
-item.ammo_standard.g40_he.name=40-мм граната (Фугасная)
-item.ammo_standard.g40_heat.name=40-мм граната (Кумулятивная)
-item.ammo_standard.g40_inc.name=40-мм граната (Зажигательная)
-item.ammo_standard.g40_phosphorus.name=40-мм граната (Белый фосфор)
-
-item.ammo_standard.rocket_demo.name=Ракета (Разрущающая)
-item.ammo_standard.rocket_he.name=Ракета (Фугасная)
-item.ammo_standard.rocket_heat.name=Ракета (Кумулятивная)
-item.ammo_standard.rocket_inc.name=Ракета (Зажигательная)
-item.ammo_standard.rocket_phosphorus.name=Ракета (Белый фосфор)
-
+item.ammo_standard.bmg50_ap.name=Патрон .50 БМГ (Бронебойный)
+item.ammo_standard.bmg50_du.name=Патрон .50 БМГ (Обеднённый уран)
+item.ammo_standard.bmg50_fmj.name=Патрон .50 БМГ (Оболочечный)
+item.ammo_standard.bmg50_he.name=Патрон .50 БМГ (Разрывной)
+item.ammo_standard.bmg50_jhp.name=Патрон .50 БМГ (Полуоболочечный экспансивный)
+item.ammo_standard.bmg50_sm.name=Патрон .50 БМГ (Звёздный металл)
+item.ammo_standard.bmg50_sp.name=Патрон .50 БМГ (Экспансивный)
+item.ammo_standard.coil_ferrouranium.name=Гаусс-шарик (Ферроурановый)
+item.ammo_standard.coil_tungsten.name=Гаусс-шарик (Вольфрамовый)
+item.ammo_standard.flame_balefire.name=Топливо огнемёта (Жар-топливо)
 item.ammo_standard.g10.name=Патрон 10 калибра (Картечь)
 item.ammo_standard.g10_du.name=Патрон 10 калибра (Обеднённый уран)
+item.ammo_standard.g10_explosive.name=Патрон 10 калибра (Разрывной)
 item.ammo_standard.g10_shrapnel.name=Патрон 10 калибра (Шрапнель)
 item.ammo_standard.g10_slug.name=Патрон 10 калибра (Пуля)
-item.ammo_standard.g10_explosive.name=Патрон 10 калибра (Разрывной)
-
 item.ammo_standard.g12.name=Патрон 12 калибра (Картечь)
 item.ammo_standard.g12_anthrax.name=Патрон 12 калибра (Сибирская язва)
 item.ammo_standard.g12_bp.name=Патрон 12 калибра (Картечь на чёрном порохе)
@@ -223,59 +254,49 @@ item.ammo_standard.g12_flechette.name=Патрон 12 калибра (Флеше
 item.ammo_standard.g12_magnum.name=Патрон 12 калибра (Тяжёлая картечь)
 item.ammo_standard.g12_phosphorus.name=Патрон 12 калибра (Зажигательный)
 item.ammo_standard.g12_slug.name=Патрон 12 калибра (Пуля)
-
-item.ammo_standard.p9_ap.name=Патрон 9-мм (Бронебойный)
-item.ammo_standard.p9_fmj.name=Патрон 9-мм (Оболочечный)
-item.ammo_standard.p9_jhp.name=Патрон 9-мм (Полуоболочечный экспансивный)
-item.ammo_standard.p9_sp.name=Патрон 9-мм (Экспансивный)
-
-item.ammo_standard.r556_ap.name=Патрон 5.56-мм (Бронебойный)
-item.ammo_standard.r556_fmj.name=Патрон 5.56-мм (Оболочечный)
-item.ammo_standard.r556_jhp.name=Патрон 5.56-мм (Полуоболочечный экспансивный)
-item.ammo_standard.r556_sp.name=Патрон 5.56-мм (Экспансивный)
-
-item.ammo_standard.r762_ap.name=Патрон 7.62-мм (Бронебойный)
-item.ammo_standard.r762_du.name=Патрон 7.62-мм (Обеднённый уран)
-item.ammo_standard.r762_fmj.name=Патрон 7.62-мм (Оболочечный)
-item.ammo_standard.r762_he.name=Патрон 7.62-мм (Разрывной)
-item.ammo_standard.r762_jhp.name=Патрон 7.62-мм (Полуоболочечный экспансивный)
-item.ammo_standard.r762_sp.name=Патрон 7.62-мм (Экспансивный)
-
+item.ammo_standard.g40_demo.name=40-мм граната (Разрущающая)
+item.ammo_standard.g40_he.name=40-мм граната (Фугасная)
+item.ammo_standard.g40_heat.name=40-мм граната (Кумулятивная)
+item.ammo_standard.g40_inc.name=40-мм граната (Зажигательная)
+item.ammo_standard.g40_phosphorus.name=40-мм граната (Белый фосфор)
 item.ammo_standard.m357_ap.name=Патрон .357 Магнум (Бронебойный)
 item.ammo_standard.m357_bp.name=Патрон .357 Магнум (Чёрный порох)
 item.ammo_standard.m357_express.name=Патрон .357 Магнум (Высокоскоростной оболочечный)
 item.ammo_standard.m357_fmj.name=Патрон .357 Магнум (Оболочечный)
 item.ammo_standard.m357_jhp.name=Патрон .357 Магнум (Полуоболочечный экспансивный)
 item.ammo_standard.m357_sp.name=Патрон .357 Магнум (Экспансивный)
-
 item.ammo_standard.m44_ap.name=Патрон .44 Магнум (Бронебойный)
 item.ammo_standard.m44_bp.name=Патрон .44 Магнум (Чёрный порох)
 item.ammo_standard.m44_express.name=Патрон .44 Магнум (Высокоскоростной оболочечный)
 item.ammo_standard.m44_fmj.name=Патрон .44 Магнум (Оболочечный)
 item.ammo_standard.m44_jhp.name=Патрон .44 Магнум (Полуоболочечный экспансивный)
 item.ammo_standard.m44_sp.name=Патрон .44 Магнум (Экспансивный)
-
-item.ammo_standard.bmg50_ap.name=Патрон .50 БМГ (Бронебойный)
-item.ammo_standard.bmg50_he.name=Патрон .50 БМГ (Разрывной)
-item.ammo_standard.bmg50_du.name=Патрон .50 БМГ (Обеднённый уран)
-item.ammo_standard.bmg50_fmj.name=Патрон .50 БМГ (Оболочечный)
-item.ammo_standard.bmg50_sm.name=Патрон .50 БМГ (Звёздный металл)
-item.ammo_standard.bmg50_jhp.name=Патрон .50 БМГ (Полуоболочечный экспансивный)
-item.ammo_standard.bmg50_sp.name=Патрон .50 БМГ (Экспансивный)
-
 item.ammo_standard.nuke_balefire.name=Ядерный минизаряд (Жар-яйцо)
 item.ammo_standard.nuke_demo.name=Ядерный минизаряд (Разрущающая)
 item.ammo_standard.nuke_high.name=Ядерный минизаряд (Высокомощный)
 item.ammo_standard.nuke_hive.name=Ракетный минизаряд (Ракетный рой)
 item.ammo_standard.nuke_standard.name=Ядерный минизаряд (Стандартный)
 item.ammo_standard.nuke_tots.name=Ядерный минизаряд (Карапузы)
-
-item.ammo_standard.tau_uranium.name=Ящик обеднённого урана-238
-
-item.ammo_standard.coil_ferrouranium.name=Гаусс-шарик (Ферроурановый)
-item.ammo_standard.coil_tungsten.name=Гаусс-шарик (Вольфрамовый)
-
-item.ammo_standard.flame_balefire.name=Топливо огнемёта (Жар-топливо)
+item.ammo_standard.p9_ap.name=Патрон 9-мм (Бронебойный)
+item.ammo_standard.p9_fmj.name=Патрон 9-мм (Оболочечный)
+item.ammo_standard.p9_jhp.name=Патрон 9-мм (Полуоболочечный экспансивный)
+item.ammo_standard.p9_sp.name=Патрон 9-мм (Экспансивный)
+item.ammo_standard.r556_ap.name=Патрон 5.56-мм (Бронебойный)
+item.ammo_standard.r556_fmj.name=Патрон 5.56-мм (Оболочечный)
+item.ammo_standard.r556_jhp.name=Патрон 5.56-мм (Полуоболочечный экспансивный)
+item.ammo_standard.r556_sp.name=Патрон 5.56-мм (Экспансивный)
+item.ammo_standard.r762_ap.name=Патрон 7.62-мм (Бронебойный)
+item.ammo_standard.r762_du.name=Патрон 7.62-мм (Обеднённый уран)
+item.ammo_standard.r762_fmj.name=Патрон 7.62-мм (Оболочечный)
+item.ammo_standard.r762_he.name=Патрон 7.62-мм (Разрывной)
+item.ammo_standard.r762_jhp.name=Патрон 7.62-мм (Полуоболочечный экспансивный)
+item.ammo_standard.r762_sp.name=Патрон 7.62-мм (Экспансивный)
+item.ammo_standard.rocket_demo.name=Ракета (Разрущающая)
+item.ammo_standard.rocket_he.name=Ракета (Фугасная)
+item.ammo_standard.rocket_heat.name=Ракета (Кумулятивная)
+item.ammo_standard.rocket_inc.name=Ракета (Зажигательная)
+item.ammo_standard.rocket_phosphorus.name=Ракета (Белый фосфор)
+item.ammo_standard.tau_uranium.name=Ящик обеднённого урана-235
 
 // Пластиллиновое безумие //
 armorMod.type.insert=Бронепластина
@@ -319,7 +340,9 @@ item.glyphid_gland.name= (Железа глифида)
 item.glyphid_gland_empty.name=Пустая железа глифида
 item.broken_item.prefix=%s (Бракованный)
 
+// DEPRECATED //
 item.pile_rod_detector.desc=§9[Детектор/поглотитель нейтронов]$§eПКМ обезвреживателем, чтобы увеличить/уменьшить лимит нейтронов$§eПКМ отвёрткой без шифта, чтобы проверить поток
+// DEPRECATED //
 
 item.gas_empty.name=Пустой газовый баллон
 item.gas_full.name=Газовый баллон:
@@ -336,9 +359,6 @@ item.fluid_barrel_full.name=Жидкостная бочка: %s
 item.fluid_pack_empty.name=Большой жидкостный контейнер
 item.fluid_pack_full.name=%s (Упаковано)
 item.scraps.name=%s (Литейный шлак)
-
-item.detonator_de.name=Взрывчатка смертника
-item.detonator_deadman.name=Детонатор смертника
 
 item.igniter.name=Зажигатель
 item.igniter.desc=(Щёлкните ПКМ по Прототипу)$Это зелёная металлическая ручка с $ярко-красной кнопкой и маленькой крышкой.$Внизу выгравированы инициалы N.E.$Кем бы ни был N.E., у него был отличный вкус в оттенках зелёного.
@@ -358,15 +378,58 @@ item.particle_sparkticle.name=Капсула со Спарктиклом
 item.particle_strange.name=Капсула со Странным кварком
 item.particle_tachyon.name=Капсула с Тахионом
 
-item.battery_sc.desc=Радиовольтаическое устройство не подходит для$аккумуляторных разъемов! Выходная мощность может$быть нестабильной и может возникнуть опасное$искрение!
+item.icf_pellet.name=Топливная пеллета ICF
+item.icf_pellet_depleted.name=Обеднённая топливная пеллета ICF
+item.icf_pellet_empty.name=Пустая топливная пеллета ICF
+
+item.battery_sc.desc=Радиовольтаические устройства не подходят для$аккумуляторных разъёмов! Выходная мощность может$быть нестабильной и может возникнуть опасное$искрение!
 
 item.rtty_pager.name=Редстоун-по-Радио пейджер
 
 item.chunk_ore.moonstone.name=Обработанный лунный камень
 
+item.survey_scanner.name=Глубинный сканер
+item.entanglement_kit.name=Комплект для квантового запутывания
+item.entanglement_kit.desc=Предмет для создания телепортера.$Позволяет смещать измерения с помощью глубинного сканера, улучшенного бериллием.
+
 // Vitya: Кек
 item.powder_yellowcake.name=Йеллоукек
 tile.block_yellowcake.name=Блок йеллоукека
+
+ass.analogAlt=Простая аналоговая плата
+ass.atomicClockAlt=Цезиевые атомные часы
+ass.factorioChip=Минималистичные схемы
+ass.nitra=Амуниция из нитры
+
+chem.hydrogen=Водород
+chem.hydrogencoke=Водород из кокса
+chem.oxygen=Кислород
+chem.xenon=Ксенон
+chem.xenonoxy=Ксенон (Охлаждённый)
+chem.helium3=Гелий-3
+chem.ethanol=Этанол
+chem.biogas=Биогаз
+chem.biofuel=Переэтерификация биотоплива
+chem.reoil=Регенерированное масло
+chem.gasoline=Газолин
+chem.tarsand=Битум из битумозного песка
+chem.meatprocessing=Переработка мяса глифидов
+chem.aggregate=Мгновенный агрегат
+chem.birkeland=Азотная кислота из воздуха
+chem.biooilsolidfuel=Твёрдое топливо из нефти и биомассы
+chem.biosolidfuel=Твёрдое топливо из биомассы
+chem.coallube=Машинная смазка из креозота
+chem.heavylube=Машинная смазка из тяжёлой нефти
+chem.oilelectrodes=Мгновенные электроды (Мазут)
+chem.lubeelectrodes=Мгновенные электроды (Машинная смазка)
+chem.deshcracked=Деш-слиток из крекинг нефти
+
+precass.recycle=Переработка: %s
+
+purex.recycle=Переработка: %s
+purex.schrab=Извлечение шрабидия из: %s
+
+rock.crushing=Дробление: %s
 
 hbmfluid.xylene=Бензол-толуол-ксилол (БТК)
 
@@ -382,6 +445,7 @@ upgrade.productivity=Продуктивность %s
 upgrade.range=Радиус %s
 upgrade.speed=Скорость процесса %s
 
+// DEPRECATED //
 satchip.lunar_miner=Добывает лунный грунт и доставляет на станцию посадки груза.
 satchip.foeq=Даёт достижение... Это всё.
 satchip.gerald.desc=Одноразовый$Требуется орбитальный модуль.$Плавитель процессоров, а также проклятье каждого администратора сервера.
@@ -391,12 +455,13 @@ satchip.miner=Добывает руды с астероидов и достав�
 satchip.radar=Показывает карту активных существ.
 satchip.resonator=Позволяет телепортироваться без перезарядки.
 satchip.scanner=Создаёт карту подземных руд сверху вниз.
+// DEPRECATED //
 
 hbmmat.actinium227=Актиний-227
 hbmmat.aluminum=Алюминий
-hbmmat.americiumrg=Реакторный америций
 hbmmat.americium241=Америций-241
 hbmmat.americium242=Америций-242
+hbmmat.americiumrg=Реакторный америций
 hbmmat.arsenic=Мышьяк
 hbmmat.arsenicbronze=Мышьяковая бронза
 hbmmat.asbestos=Асбест
@@ -418,8 +483,8 @@ hbmmat.cinnabar=Киноварь
 hbmmat.cmbsteel=Сталь Альянса
 hbmmat.coal=Уголь
 hbmmat.coalcoke=Угольный кокс
-hbmmat.cobalt=Кобальт
 hbmmat.cobalt60=Кобальт-60
+hbmmat.cobalt=Кобальт
 hbmmat.coltan=Колтан
 hbmmat.copper=Медь
 hbmmat.cryolite=Криолит
@@ -434,8 +499,8 @@ hbmmat.fiberglass=Стекловолокно
 hbmmat.fluorite=Флюорит
 hbmmat.flux=Флюс
 hbmmat.ghiorsium336=Гиорсий-336
-hbmmat.gold=Золото
 hbmmat.gold198=Золото-198
+hbmmat.gold=Золото
 hbmmat.graphene=Графен
 hbmmat.graphite=Графит
 hbmmat.gunmetal=Пушечная бронза
@@ -443,10 +508,10 @@ hbmmat.hematite=Гематит
 hbmmat.iron=Железо
 hbmmat.lanthanum=Лантан
 hbmmat.lapis=Лазурит
-hbmmat.lead=Свинец
 hbmmat.lead209=Свинец-209
-hbmmat.lignitecoke=Бурый кокс
+hbmmat.lead=Свинец
 hbmmat.lignite=Бурый уголь
+hbmmat.lignitecoke=Бурый кокс
 hbmmat.lithium=Литий
 hbmmat.magnetizedtungsten=Намагниченный вольфрам
 hbmmat.malachite=Малахит
@@ -460,11 +525,11 @@ hbmmat.obsidian=Обсидиан
 hbmmat.osmiridium=Осмиридий
 hbmmat.petcoke=Нефтяной кокс
 hbmmat.pigiron=Чугун
-hbmmat.plutonium=Плутоний
 hbmmat.plutonium238=Плутоний-238
 hbmmat.plutonium239=Плутоний-239
 hbmmat.plutonium240=Плутоний-240
 hbmmat.plutonium241=Плутоний-241
+hbmmat.plutonium=Плутоний
 hbmmat.plutoniumrg=Реакторный плутоний
 hbmmat.polonium210=Полоний-210
 hbmmat.polycarbonate=Твёрдый пластик
@@ -493,13 +558,13 @@ hbmmat.sulfur=Сера
 hbmmat.tantalum=Тантал
 hbmmat.tcalloy=Технециевая сталь
 hbmmat.technetium99=Технеций-99
-hbmmat.titanium=Титан
 hbmmat.thorium232=Торий-232
+hbmmat.titanium=Титан
 hbmmat.tungsten=Вольфрам
-hbmmat.uranium=Уран
 hbmmat.uranium233=Уран-233
 hbmmat.uranium235=Уран-235
 hbmmat.uranium238=Уран-238
+hbmmat.uranium=Уран
 hbmmat.watzmud=Токсичные отходы
 hbmmat.weaponsteel=Оружейная сталь
 hbmmat.whitephosphorus=Белый фосфор
