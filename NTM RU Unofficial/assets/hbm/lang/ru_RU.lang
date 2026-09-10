@@ -174,7 +174,7 @@ item.gun_greasegun_m3.name=Пистолет-пулемёт M3
 item.gun_hangman.name=Палач
 item.gun_heavy_revolver.name=Тяжёлый револьвер
 item.gun_heavy_revolver_lilmac.name=Малый Макинтош
-item.gun_heavy_revolver_protege.name=Протéже
+item.gun_heavy_revolver_protege.name=Протѐже
 item.gun_heavy_revolver_scoped.name=Тяжёлый револьвер с прицелом
 item.gun_henry.name=Винтовка рычажного действия
 item.gun_henry_lincoln.name=Винтовка Линкольна
@@ -189,12 +189,12 @@ item.gun_light_revolver_atlas.name=Атлас
 item.gun_light_revolver_dani.name=День и Ночь
 item.gun_m2.name=Ма Дьюс
 item.gun_maresleg.name=Дробовик рычажного действия
-item.gun_maresleg_akimbo.name=Двойные дробовики рычажного действия
+item.gun_maresleg_akimbo.name=Парные дробовики рычажного действия
 item.gun_maresleg_broken.name=Сломанный
 item.gun_maresleg_short.name=Кобылья нога
 item.gun_mas36.name=Южная звезда
 item.gun_minigun.name=Персональный миниган
-item.gun_minigun_dual.name=Двойные миниганы
+item.gun_minigun_dual.name=Парные миниганы
 item.gun_minigun_lacunae.name=Лакунай
 item.gun_missile_launcher.name=Ракетомёт
 item.gun_mk108.name=Автоматический гранатомёт
@@ -205,15 +205,15 @@ item.gun_panzerschreck.name=Панцершрек
 item.gun_pepperbox.name=Перечница
 item.gun_quadro.name=Четыре сыра
 item.gun_spas12.name=Дробовик SPAS-12
-item.gun_star_f.name=Целевой пистолет
-item.gun_star_f_akimbo.name=Двойные целевые пистолеты
-item.gun_star_f_silenced.name=Целевой пистолет с глушителем
+item.gun_star_f.name=Спортивный пистолет
+item.gun_star_f_akimbo.name=Парные спортивные пистолеты
+item.gun_star_f_silenced.name=Спортивный пистолет с глушителем
 item.gun_stg77.name=Штурмовая винтовка StG-77
 item.gun_stinger.name=FIM-92 Стингер
 item.gun_tau.name=Тау-пушка
 item.gun_tesla_cannon.name=Тесла-пушка
 item.gun_uzi.name=Узи
-item.gun_uzi_akimbo.name=Двойные Узи
+item.gun_uzi_akimbo.name=Парные Узи
 item.gun_uzi_richter.name=Рихтер
 item.gun_uzi_saturnite.name=Сатурнитовый Узи
 
@@ -378,6 +378,7 @@ item.particle_sparkticle.name=Капсула со Спарктиклом
 item.particle_strange.name=Капсула со Странным кварком
 item.particle_tachyon.name=Капсула с Тахионом
 
+// Vitya: Я думаю, стоит заменить ICF на ИЦС... Наверное....
 item.icf_pellet.name=Топливная пеллета ICF
 item.icf_pellet_depleted.name=Обеднённая топливная пеллета ICF
 item.icf_pellet_empty.name=Пустая топливная пеллета ICF
@@ -412,7 +413,7 @@ chem.biogas=Биогаз
 chem.biofuel=Переэтерификация биотоплива
 chem.reoil=Регенерированное масло
 chem.gasoline=Газолин
-chem.tarsand=Битум из битумозного песка
+//chem.tarsand=Битум из битумозного песка
 chem.meatprocessing=Переработка мяса глифидов
 chem.aggregate=Мгновенный агрегат
 chem.birkeland=Азотная кислота из воздуха
@@ -473,6 +474,7 @@ hbmmat.bismuthbronze=Висмутовая бронза
 hbmmat.bone=Кость
 hbmmat.borax=Бура
 hbmmat.boron=Бор
+// Vitya: Может быть переименовать в "ВСКМО"?
 hbmmat.bscco=BSCCO
 hbmmat.cadmium=Кадмий
 hbmmat.calcium=Кальций
@@ -573,10 +575,12 @@ hbmmat.workersalloy=Деш
 hbmmat.wroughtiron=Кованое железо
 hbmmat.zirconium=Цирконий
 
-entity.hbm.entity_ntm_test_dummy.name=Тестовый манекен
-entity.hbm.entity_ntm_undead_soldier.name=Солдат-Мертвец
 entity.hbm.entity_c_item.name=Предмет на конвейере
 entity.hbm.entity_c_package.name=Ящик на конвейере
+entity.hbm.entity_miner_lander.name=Грузовой капсульный модуль
+entity.hbm.entity_ntm_test_dummy.name=Тестовый манекен
+entity.hbm.entity_ntm_undead_soldier.name=Солдат-Мертвец
+entity.hbm.entity_stray_saw.name=ЕБАТЬ ПИЛА
 
 // Vitya: В этом грёбанном файле беспорядок
 // В следующий раз постараюсь прибраться
